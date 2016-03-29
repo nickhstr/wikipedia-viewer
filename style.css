@@ -1,0 +1,66 @@
+body {
+  background: #ddd;
+}
+
+h1 {
+  font-family: EB Garamond, serif;
+  font-size: 4em;
+  margin: auto;
+}
+
+.lower {
+  font-size: 0.75em;
+}
+
+form {
+  margin: 50px auto;
+  text-align: center;
+}
+
+input, button {
+  border: none;
+  padding: 5px 10px;
+}
+
+#random {
+  padding: 7px 12px;
+}
+
+.button, #random {
+  margin: auto auto 30px;
+  background: #ccc;
+}
+
+.button:hover, #random:hover {
+  color: #fff;
+  background: #bbb;
+  transition: background 0.5s, color 0.3s;
+}
+
+#random {
+  text-decoration: none;
+}
+
+#searchbox {
+  margin: 20px auto;
+}
+
+.search-results {
+  padding: 20px;
+}
+
+.background {
+  background: #fff;
+}
+
+h2 {
+  margin: 20px auto 50px;
+}
+
+p {
+  margin: auto auto 40px;
+}
+
+a:hover {
+  text-decoration: none;
+}
